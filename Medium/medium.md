@@ -21,9 +21,7 @@ middleware (`middleware.js`) should:
 -   If the user does not have READ_WRITE access, reject the request with
     status code `403` and the message:
 
-```{=html}
-<!-- -->
-```
+
     { "message": "Access Denied" }
 
 ### Example
